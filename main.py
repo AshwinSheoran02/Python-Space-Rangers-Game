@@ -130,7 +130,7 @@ while running:
     for i in range(numenm ):
 
         # Game Over
-        if enmY[i] >= 200:
+        if enmY[i] >= 440:
             for j in range(numenm):
                 enmY[j] = 2000
             gameovertext()
